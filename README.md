@@ -12,7 +12,32 @@ API realiza busca dos dados de postagens por categoria de banco Mysql de Blog em
 
 ##
 
-  ## - 🚀 Construção de ambiente via NPM:~
-    * Comando padrão npx create nextjs
-    * No diretório < projeto > no subdire´ório < pages > adicione a pasta conforme o endpoint que desejas, no exemplo < posts >.
+  ## - 🚀 Construção de ambiente via NPM:
+    
+    - Comando padrão npx create nextjs
+    - Limpeza dos arquivos padrões.
+     -- Observação: Não fazemos alterações este momento no layout ou template da aplicação no Frontend.
+    - No diretório < projeto > no subdire´ório < pages > adicione a pasta conforme
+     o endpoint que desejas, no exemplo < posts >.
+  
+  ## - 🌄 Pensando no Fluxo:
+
+    [ ] Necfessario a criação de lib para tratar as configurações para DB Mysql do CMS Wordpress.
+      -- Preferencialmente, por questões de segurança o uso de variaveis de ambiente (.env.local ).
+    
+##
+  ### EXEMPLO DotEnv 9.env.local)
+
+  ´´´   MYSQL_HOST      = < ! - Dados confidenciais  > 
+        MYSQL_DATABASE = < ! - Dados confidenciais  >
+        MYSQL_USERNAME = < ! - Dados confidenciais  >
+        MYSQL_PASSWORD = < ! - Dados confidenciais  >
+        URI_HOST= 'http://localhost:3000' 
+  ´´´
+##
+    [ ] Instalando pacote para utilização de arquivos .env
+      *  npm install dotenv   
+    [ ] Instalando pacote MySQL 
+      * npm install serverless-mysql
+    [ ] Criar pasta lib no diretório principal do projeto
     
