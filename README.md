@@ -29,7 +29,7 @@ API realiza busca dos dados de postagens por categoria de banco Mysql de Blog em
 ##
   ### EXEMPLO DotEnv 9.env.local)
 
-  - MYSQL_HOST      = < ! - Dados confidenciais  > 
+  - MYSQL_HOST     = < ! - Dados confidenciais  > 
   - MYSQL_DATABASE = < ! - Dados confidenciais  >
   - MYSQL_USERNAME = < ! - Dados confidenciais  >
   - MYSQL_PASSWORD = < ! - Dados confidenciais  >
